@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<title>Guía Completa: Antena Wi-Fi y Cómo Mejorar tu Conectividad</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto&display=swap');
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg,rgb(10, 202, 236),rgb(138, 26, 182));
+    color: #212121;
+    min-height: 600px;
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  header {
+    background:rgb(100, 20, 165);
+    color: white;
+    padding: 1rem 1rem;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.25);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+  main {
+    flex: 1;
+    background: white;
+    border-radius: 24px 24px 0 0;
+    padding: 1rem 1.5rem 2rem;
+    overflow-y: auto;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  }
+  h2 {
+    color:rgba(90, 190, 8, 0.96);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  p {
+    line-height: 1.5;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+  img {
+    width: 100%;
+    border-radius: 14px;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+  }
+  ul {
+    padding-left: 20px;
+    margin-bottom: 1rem;
+  }
+  li {
+    margin-bottom: 0.6rem;
+    font-size: 0.9rem;
+  }
+  .highlight {
+    background: #f0f8ff;
+    border-left: 5px solidrgb(226, 204, 4);
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+    font-style: italic;
+    font-size: 0.85rem;
+    border-radius: 4px;
+  }
+  button {
+    background-color:rgb(216, 28, 28);
+    color: white;
+    border: none;
+    border-radius: 14px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    max-width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Montserrat', sans-serif;
+  }
+  button:hover {
+    background-color:rgba(21, 196, 15, 0.86);
+  }
+  .steps-container {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+    font-size: 0.9rem;
+    padding-left: 1rem;
+  }
+  .open {
+    max-height: 600px; /* enough to show all steps */
+    margin-bottom: 1rem;
+  }
+  footer {
+    background:rgb(136, 87, 23);
+    color: white;
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 0.8rem 1rem;
+    font-family: 'Roboto', sans-serif;
+    user-select: none;
+  }
+  a.inline-link {
+    color:hsl(256, 91.40%, 31.80%)67, 119);
+    text-decoration: none;
+  }
+  a.inline-link:hover {
+    text-decoration: underline;
+  }
+</style>
+</head>
+<body>
+<header>
+  Guía Completa: Antena Wi-Fi y Cómo Mejorar tu Conectividad
+</header>
+<main>
+  <section>
+    <h2>¿Qué es una Antena Wi-Fi?</h2>
+    <p>Una antena Wi-Fi es un dispositivo que transmite y recibe señales inalámbricas para conectar teléfonos, computadoras y otros dispositivos a una red local sin necesidad de cables. Estas antenas no generan internet por sí solas, solo facilitan la comunicación con un punto de acceso (como un router).</p>
+    <img src="https://i.pinimg.com/736x/40/93/dc/4093dc75c4d6241089ee8584a08f3b68.jpg" alt="Antena Wi-Fi instalada en edificio" />
+  </section>
+  <section>
+    <h2>¿Puedo Crear Internet Gratis con una Antena Casera?</h2>
+    <p>No es posible generar internet gratis solo con una antena. El internet proviene de proveedores o redes conectadas a la infraestructura mundial. Sin embargo, puedes mejorar la recepción de señal Wi-Fi existente utilizando antenas caseras para captar señales lejanas mejor que con las antenas estándar.</p>
+  </section>
+  <section>
+    <h2>Opciones para Tener Internet sin Cobertura</h2>
+    <ul>
+      <li><strong>Usar datos móviles:</strong> Verifica si tu proveedor tiene cobertura o prepago.</li>
+      <li><strong>Configurar hotspot móvil:</strong> Comparte internet desde otro teléfono.</li>
+      <li><strong>Dispositivos MiFi:</strong> Routers portátiles con SIM para conexión móvil.</li>
+      <li><strong>Buscar redes públicas:</strong> Wi-Fi en cafés, bibliotecas o espacios públicos.</li>
+      <li><strong>Antenas y repetidores Wi-Fi:</strong> Para ampliar cobertura existente.</li>
+    </ul>
+  </section>
+  <section>
+    <h2>Cómo Mejorar la Señal Wi-Fi con una Antena Casera</h2>
+    <p>Si ya tienes señal Wi-Fi débil, puedes construir una antena casera para amplificar su recepción. Un método simple es usar un reflector parabólico hecho con papel aluminio o una lata metálica para dirigir y potenciar la señal hacia tu dispositivo.</p>
+    <img src="https://images.pexels.com/photos/60504/pexels-photo-60504.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=400" alt="Antena Wi-Fi casera con reflector parabólico" />
+    <button id="toggleStepsBtn" aria-expanded="false" aria-controls="usageSteps">Ver Pasos para Crear tu Antena Casera</button>
+    <div id="usageSteps" class="steps-container" aria-hidden="true">
+      <ol>
+        <li>Consigue materiales básicos: una lata vacía, papel aluminio, cinta adhesiva, tijeras y un teléfono o router para probar.</li>
+        <li>Limpia y corta la lata para crear un reflector cóncavo que enfoque la señal hacia la antena de tu dispositivo.</li>
+        <li>Cubre la parte interna del reflector con papel aluminio para mejorar la reflexión de señales.</li>
+        <li>Fija la antena original (o el dispositivo que recibe Wi-Fi) junto al reflector, orientando el conjunto hacia la fuente de señal Wi-Fi.</li>
+        <li>Prueba la señal Wi-Fi en tu dispositivo y ajusta la posición del reflector para maximizar la intensidad.</li>
+        <li>Si lo deseas, puedes mejorar el diseño con materiales más adecuados como cajas parabólicas o reflectores comerciales.</li>
+      </ol>
+      <p class="highlight">Recuerda: Esta antena amplifica la señal disponible, pero no crea internet donde no haya cobertura.</p>
+    </div>
+  </section>
+</main>
+<footer>
+  &copy; 2025 Aprende sobre Wi-Fi • Usa siempre conexiones seguras y legales • Imágenes por <a href="https://www.pexels.com" target="_blank" rel="noopener" class="inline-link">Pexels</a>
+</footer>
+<script>
+  const toggleBtn = document.getElementById('toggleStepsBtn');
+  const stepsDiv = document.getElementById('usageSteps');
+
+  toggleBtn.addEventListener('click', () => {
+    const isOpen = stepsDiv.classList.toggle('open');
+    stepsDiv.setAttribute('aria-hidden', !isOpen);
+    toggleBtn.setAttribute('aria-expanded', isOpen);
+    toggleBtn.textContent = isOpen ? 'Ocultar Pasos' : 'Ver Pasos para Crear tu Antena Casera';
+  });
+</script>
+</body>
+</html>
